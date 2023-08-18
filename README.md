@@ -12,15 +12,23 @@ python fedavg.py --data_dir ../data/cifar --backbone Cifar --dataset cifar10 --b
 ```
 ### FedAvg to make converged model for SVHN
 ```
-python fedavg.py --data_dir ../data/svhn --backbone Svhn --dataset svhn --batch_size 10 --num_epochs 200 --iid iid --seed 10
+python fedavg.py --data_dir ../data/svhn --backbone Svhn --dataset svhn --batch_size 10 --num_epochs 100 --iid iid --seed 10
 ```
 ### Internal Separation & Backstage Collaboration & Manifold Mixup (ResNet-34) for CIFAR-10
 ```
-python 2step_train_test_mixup_concat_classifier.py --id cifar10
+python 2step_train_test_mixup_concat_classifier.py --id cifar10 --ood svhn
+```
+### Internal Separation & Backstage Collaboration & Manifold Mixup (ResNet-34) for SVHN
+```
+python 2step_train_test_mixup_concat_classifier.py --id svhn --ood cifar10
 ```
 ### Internal Separation & Backstage Collaboration & Manifold Mixup (WideResNet) for CIFAR-10
 ```
-python 2step_train_test_mixup_concat_classifier_wideresnet.py --id cifar10
+python 2step_train_test_mixup_concat_classifier_wideresnet.py --id cifar10 --ood svhn
+```
+### Internal Separation & Backstage Collaboration & Manifold Mixup (WideResNet) for SVHN
+```
+python 2step_train_test_mixup_concat_classifier_wideresnet.py --id svhn --ood cifar10
 ```
 
 
