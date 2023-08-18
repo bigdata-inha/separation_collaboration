@@ -10,7 +10,7 @@ We share the FL converged model we trained for reimplementation.
 All these experiments can be run using the following command:
 ### FedAvg to make converged model for CIFAR-10
 ```
-python fedavg.py --data_dir ../data/cifar --backbone Cifar --dataset cifar10 --batch_size 10 --num_epochs 200 --iid iid --seed 10
+python fedavg.py --data_dir ../data/cifar --backbone Cifar --dataset cifar10 --batch_size 10 --num_epochs 100 --iid iid --seed 10
 ```
 ### FedAvg to make converged model for SVHN
 ```
