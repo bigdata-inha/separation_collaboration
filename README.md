@@ -25,5 +25,5 @@ python 2step_train_test_mixup_concat_classifier_wideresnet.py --id cifar10
 
 
 ### Requirements
-python 3.8.5  
-pytorch 1.12.0
+python 3.9.7  
+pytorch 1.8.1
