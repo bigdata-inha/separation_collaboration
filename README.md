@@ -5,7 +5,7 @@ Among various out-of-distribution (OOD) detection methods in neural networks, ou
 
 ## Experiment Command
 This repository contains experiments reported in the paper for CIFAR-10, SVHN dataset.
-We share the FL converged model we trained for reimplementation. Please download it from (https://drive.google.com/drive/folders/1Ubf-D0xChwcyuV52kgqOzTNl1R3MBWVP?usp=sharing) to "./check_model". 
+We share the FL converged model we trained for reimplementation. Please download it from wwwwww.xcxxx.com to "./check_model". 
 
 All these experiments can be run using the following command:
 ### FedAvg to make converged model for CIFAR-10
