@@ -39,3 +39,5 @@ python==3.9.7
 pytorch==1.8.1  
 torchvision==0.9.1  
 numpy==1.19.2
+tqdm==4.66.1
+pillow==10.0.1
