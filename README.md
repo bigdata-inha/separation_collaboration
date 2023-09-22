@@ -40,4 +40,5 @@ pytorch==1.8.1
 torchvision==0.9.1  
 numpy==1.19.2  
 tqdm==4.66.1  
-pillow==10.0.1
+pillow==10.0.1  
+matplotlib==3.8.0
