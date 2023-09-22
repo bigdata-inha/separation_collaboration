@@ -38,6 +38,6 @@ python 2step_train_test_mixup_concat_classifier_wideresnet.py --id svhn --ood ci
 python==3.9.7  
 pytorch==1.8.1  
 torchvision==0.9.1  
-numpy==1.19.2
-tqdm==4.66.1
+numpy==1.19.2  
+tqdm==4.66.1  
 pillow==10.0.1
